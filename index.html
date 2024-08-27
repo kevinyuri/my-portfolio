@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=PT+Sans:wght@700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Portfolio | Kevin Yuri</title>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="max-width-wrapper">
+      <!-- Header Section -->
+      <header>
+        <div class="header-image-container">
+          <figure class="header-oval">
+            <img src="images/pattern-rings.svg" alt="oval-decoration" />
+          </figure>
+          <figure class="header-circle">
+            <img src="images/pattern-circle.svg" alt="circle-decoration" />
+          </figure>
+        </div>
+        <div class="nav-container">
+          <div>
+            <p class="nav-name">kevinyuri</p>
+          </div>
+        </div>
+        <div class="header-message-container">
+          <h1>
+            Olá <span class="move-words-down">! Me chamo </span
+            ><span class="name-span">Kevin Yuri </span>.
+          </h1>
+          <p class="header-message">
+            Sou um desenvolvedor web de Fortaleza - Ceará. Veja abaixo algum dos
+            meus projetos.
+          </p>
+          <a
+            class="contact-link-header"
+            href="#contact-section"
+            class="contact-me-link"
+            >Entre em contato comigo</a
+          >
+        </div>
+      </header>
+
+      <main>
+        <!-- Skills Section -->
+        <!-- Project Section -->
+        <section class="projects-wrapper">
+          <div class="project-heading">
+            <h2 class="project-title">Projetos</h2>
+          </div>
+
+          <div class="project-wrapper">
+            <div class="project-container">
+              <!-- First Project -->
+              <article class="project">
+                <figure class="img-container">
+                  <img src="images/imagem.png" alt="" />
+                </figure>
+                <h3>Landing Page</h3>
+                <div class="project-tools-container">
+                  <ul>
+                    <li class="tool-1">Responsivo para celulares</li>
+                  </ul>
+                </div>
+                <div class="project-links project-links-hide">
+                  <a target="_blank" href="https://kevinyuri.github.io/ominifood-final-project/">Acessar Website</a>
+                </div>
+              </article>
+              <!-- Second Project   -->
+              <article class="project">
+                <figure class="img-container">
+                  <img src="images/imagem (1).png" alt="" />
+                </figure>
+                <h3>Seção Info Cheia</h3>
+                <div class="project-tools-container">
+                  <ul>
+                    <li class="tool-1">Informação de Introdução</li>
+                  </ul>
+                </div>
+                <div class="project-links project-links-hide">
+                  <a target="_blank" href="https://kevinyuri.github.io/hero-section/">Acessar WEBSITE</a>
+                </div>
+              </article>
+              <!-- Third Project -->
+              <article class="project">
+                <figure class="img-container">
+                  <img src="images/imagem (2).png" alt="" />
+                </figure>
+                <h3>Todo web app</h3>
+                <div class="project-tools-container">
+                  <ul>
+                    <li class="tool-1">Landing Page</li>
+                  </ul>
+                </div>
+                <div class="project-links project-links-hide">
+                  <a target="_blank" href="https://kevinyuri.github.io/05-Design/">ACESSAR WEBSITE</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact-section">
+          <div class="contact-wrapper">
+            <div class="contact-message-container">
+              <h2>Fale comigo</h2>
+              <p>
+                Vai ser incrível conhecer suas ideias e poder colocá-las em
+                prática 🤩
+              </p>
+            </div>
+            <div class="contact-form-container">
+              <figure class="contact-oval">
+                <img src="images/pattern-rings.svg" alt="oval-decoration" />
+              </figure>
+              <form class="contact-form">
+                <label for="form-name"></label>
+                <input
+                  type="text"
+                  id="form-name"
+                  name="form-name"
+                  placeholder="Nome"
+                />
+                <p id="error-name" class="error"></p>
+
+                <label for="form-email"></label>
+                <input
+                  type="text"
+                  id="form-email"
+                  name="form-email"
+                  placeholder="Email"
+                />
+                <p id="error-email" class="error"></p>
+
+                <figure class="error-icon hide-error-icon">
+                  <img src="images/warning.png" alt="incorrect-email-format" />
+                </figure>
+
+                <label for="form-message"></label>
+                <textarea
+                  name="form-message"
+                  id="form-message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Mensagem"
+                ></textarea>
+                <p id="error-message" class="error"></p>
+
+                <div class="send-button-container">
+                  <button class="send-message-button">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer Section -->
+      <footer>
+        <div class="nav-footer-container">
+          <div id="nav-name-footer" class="nav-name">
+            <p>kevinyuri</p>
+          </div>
+
+      </footer>
+    </div>
+    <!-- End max-width-wrapper -->
+  </body>
+</html>
